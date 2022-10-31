@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-container {
+    display: flex;
+}
+
+.hero-image-container {
+    display: flex;
+    object-fit: contain;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+a,
+.right-links,
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left-links {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+
+

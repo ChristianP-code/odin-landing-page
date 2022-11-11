@@ -1,6 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
@@ -20,11 +23,18 @@ nav {
 
 .hero-container {
     display: flex;
+    margin: 120px;
+    gap: 80px;
 }
 
 .hero-image-container {
     display: flex;
     object-fit: contain;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 100%;
 }
 
 .hero-main {
@@ -38,12 +48,18 @@ a,
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    gap: 20px;
 }
 
 .left-links {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bolder;
+}
+
+.hero-main {
+    margin: 0px;
 }
 
 

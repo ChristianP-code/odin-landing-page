@@ -29,7 +29,6 @@ nav {
 
 .hero-image-container {
     display: flex;
-    object-fit: contain;
     flex-wrap: wrap; /*Resizes the image into the flex container */
 }
 
@@ -80,6 +79,29 @@ a,
 
 .header-logo {
   font-size: 24px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 30px 200px;
+}
+
+.info-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+.info-image {
+    width: 150px;
+    height: 155px;
+}
+
+.random-information {
+        width: 100%;
 }
 
 

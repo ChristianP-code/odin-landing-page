@@ -23,24 +23,25 @@ nav {
 
 .hero-container {
     display: flex;
-    margin: 120px;
+    margin: 80px 160px;
     gap: 80px;
 }
 
 .hero-image-container {
     display: flex;
     object-fit: contain;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*Resizes the image into the flex container */
 }
 
 img {
-    width: 100%;
+    width: 100%; /*Ensures the hero image only takes up 100% of the container */
 }
 
 .hero-main {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0px; /*This is set to 0px in order to remove the h2 auto margin */
 }
 
 a,
@@ -49,17 +50,36 @@ a,
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
+    
+}
+
+.right-links {
     gap: 20px;
+    margin: 30px 160px;
 }
 
 .left-links {
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: bolder;
+    font-weight: 900;
+    margin: 30px 160px;
 }
 
-.hero-main {
-    margin: 0px;
+.sign-up-container {
+    flex-shrink: 1.2;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    font-size: 18px;
+    padding: 5px 30px;
+    border-radius: 8px;
+    color: #E5E7EB;
+    border: none;
+}
+
+.header-logo {
+  font-size: 24px;
 }
 
 

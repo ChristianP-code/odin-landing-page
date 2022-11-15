@@ -114,5 +114,23 @@ a,
     
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    margin: 140px 220px 0px;
+}
+
+.thor {
+    font-size: 28px;
+    font-weight: 600;
+    text-align:end;
+    margin: 0px 220px 140px;
+}
 
 

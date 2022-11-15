@@ -93,15 +93,25 @@ a,
     display: flex;
     flex-wrap: wrap;
     width: 150px;
+    justify-content: center;
+    text-align: center;
 }
 
 .info-image {
-    width: 150px;
+    width: 120px;
     height: 155px;
+    align-items: center;
+    padding: 10px;
 }
 
 .random-information {
-        width: 100%;
+    width: 100%;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px;
+    
 }
 
 

@@ -163,6 +163,7 @@ a,
     border-color: #E5E7EB;
     border: 2px solid;
     height: fit-content;
+    white-space: nowrap;
 }
 
 .cta-time {
@@ -173,6 +174,18 @@ a,
 
 .sign-up-text {
     font-size: 18px;
+    color: #E5E7EB;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.footer-text {
+    margin: 30px 0px;
     color: #E5E7EB;
 }
 

@@ -2,7 +2,7 @@
 
 This is a landing page created from scratch using simple HTML and CSS styling and flexboxes. It's given me skills in:
 - Employing separate HTML and CSS sheets
-- Using flexboxes extensively to create a page layout that adapts to screen size changes
+- Using flexboxes to create a page layout that adapts to screen size changes
 - CSS code to apply styling like curved buttons.
 - Using the developer console to troubleshoot and problem solve, particularly sizing and positioning of flexboxes
 
